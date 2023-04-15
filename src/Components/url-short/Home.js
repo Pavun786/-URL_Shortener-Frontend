@@ -4,6 +4,7 @@ import axios from "axios";
 import Swal from 'sweetalert2';
 import Model from '../Model';
 import { useNavigate } from 'react-router-dom';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 function Home() {
     const navigate = useNavigate();
@@ -141,7 +142,7 @@ function Home() {
             <div className="container">
                 <div className="row fixeds ">
                     <div className="col-lg-12 text-center text-light">
-                        <h1>URL Shortener</h1>
+                        <h1 className='heading'>URL Shortener</h1>
                     </div>
                     <div className='logout' onClick={() => {
                         window.localStorage.removeItem("token")
@@ -149,7 +150,7 @@ function Home() {
 
                         navigate("/")
                     }}>
-                        <img src="./img/logout1.png" alt="logout" />
+                      logout
                     </div>
 
                     <form onSubmit={handleUrl}>
@@ -182,6 +183,7 @@ function Home() {
                                         </h6>
                                     </div>
                                     <button type="button" className="btn btn-danger" onClick={() => handleDelete(item._id)}>Delete</button>
+                                    
                                 </div>
                             </div>
                         })) : (<div className="message" > <h3>No url are found. Add your long Url</h3> </div>)

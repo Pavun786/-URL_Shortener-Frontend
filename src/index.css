@@ -6,7 +6,7 @@
 body {
   /* background: url('  https://cdn.wallpapersafari.com/52/91/UNaJbL.jpg') no-repeat center; */
 
-  background: url('https://wallpapercave.com/wp/wp2088351.jpg') no-repeat center;
+  background: url('https://e0.pxfuel.com/wallpapers/754/1015/desktop-wallpaper-admin-login.jpg') no-repeat center;
   background-size: cover;
   font-family: sans-serif;
 min-height: 100vh;
@@ -53,7 +53,7 @@ min-height: 100vh;
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: 2rem;
-  color: #ff652f;
+  color:blue;
 }
 .form .input-group {
   position: relative;
@@ -82,7 +82,7 @@ min-height: 100vh;
 .form .input-group input:focus + label,
 .form .input-group input:valid + label {
   transform: translateY(-18px);
-  color: #ff652f;
+  color: blue;
   font-size: .8rem;
 }
 .submit-btn {
@@ -90,7 +90,8 @@ min-height: 100vh;
   margin-left: auto;
   border: none;
   outline: none;
-  background: #ff652f;
+  background:black;
+  color: whitesmoke;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
